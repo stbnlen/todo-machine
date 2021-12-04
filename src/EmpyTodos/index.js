@@ -1,5 +1,11 @@
 import React from "react";
 
+import "./EmpyTodos.css";
+
 export const EmpyTodos = () => {
-  return <div>¡Crea tu primer todo!</div>;
+  return (
+    <div className="EmpyTodos-container">
+      <p className="EmpyTodos-text">¡Crea tu primer todo!</p>{" "}
+    </div>
+  );
 };
