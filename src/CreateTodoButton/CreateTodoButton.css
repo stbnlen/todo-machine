@@ -1,0 +1,22 @@
+.createTodoButton {
+  position: fixed;
+  cursor: pointer;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 25px 45px;
+  border-radius: 15px;
+  background: #24385b;
+  color: #fff;
+  border: none;
+  border-radius: 80%;
+  right: 80px;
+  bottom: 45px;
+  z-index: 1;
+  transition: 0.3s;
+  outline: none;
+}
+
+.createTodoButton:hover {
+  box-shadow: 0 0 10px #355285, 0 0 20px #355285, 0 0 30px #355285,
+    0 0 40px #355285;
+}

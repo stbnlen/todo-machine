@@ -1,0 +1,9 @@
+.todo-list {
+  display: grid;
+  place-items: center;
+}
+
+.todo-list__ul {
+  list-style: none;
+  padding: 0;
+}
